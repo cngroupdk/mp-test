@@ -11,7 +11,7 @@
         *, *:before, *:after { box-sizing: inherit; }
 
         body {
-            height: 80vh;
+            /*height: 80vh;*/
             display: flex;
             align-items: center;
             font-family: 'Lato', sans-serif;
@@ -20,12 +20,23 @@
         .link {
             text-align: center;
             flex: 1;
-            font-size: 40px;
+            font-size: 30px;
+        }
+
+        li {
+            margin: 20px;
+        }
+        a {
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <a href="original.html" id="version-1" class="link">Timesheet (Original Look)</a>
-    <a href="bootstraped.html" id="version-2" class="link">Timesheet (Bootstrap version)</a>
+    <ul>
+        <li><a href="original.html" id="version-1" class="link">Original Timesheet</a></li>
+        <li><a href="bootstraped.html" id="version-2" class="link">New Timesheet</a></li>
+    </ul>
+    
+    
 </body>
 </html>
