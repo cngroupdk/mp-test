@@ -8,197 +8,196 @@
 <body>
     <div class="container-fluid wrapper">
         <div class="row">
-            <div class="col-md-2 side-bar">
+            <div class="col-md-2">
                 <div class="row navigation-shortcuts">
                     <div class="col-md-12">
-                        <ul class="links-list row">
-                            <li class="col-md-6"><a href="#">Log out</a></li>
-                            <li class="col-md-6"><a href="#">About</a></li>
-                        </ul>
+                        <div class="links-list row">
+                            <div class="col-md-6"><a href="#">Log out</a></div>
+                            <div class="col-md-6"><a href="#">About</a></div>
+                        </div>
                     </div>
                     <div class="col-md-12 directtime-logo">
                         <a href="/original.html"><img src="assets/images/directtime-logo.gif" height="31" width="100" alt=""></a>
                     </div>
                 </div>
+            </div>
 
-                <div class="row menu">
-                    <div class="menu__item menu__item--main">
-                        <div class="menu__item__title menu__item__title--main menu__item__title--main-active">
-                            Overview
-                        </div>
-                        <div class="menu__item menu__item--l2">
-                            <div class="menu__item menu__item--active">
-                                <div class="menu__item__title menu__item__title--sub-active">Timessheet</div>
-                                <div class="menu__item menu__item--l3">
-                                    <div class="menu__item">
-                                        <div class="menu__item__title menu__item__title--active">Clocking pairs</div>
-                                    </div>
+            <div class="col-md-2 col-md-offset-8 logo text-center">
+                <img src="assets/images/manpower-logo.gif" height="76" width="140" alt="">
+            </div>
+        </div>
 
-                                    <div class="menu__item">
-                                        <div class="menu__item__title">Expenses</div>
-                                    </div>
+        <div class="row main-content">
+            <div class="col-md-2 menu">
+                <div class="menu__item menu__item--main">
+                    <div class="menu__item__title menu__item__title--main menu__item__title--main-active">
+                        Overview
+                    </div>
+                    <div class="menu__item menu__item--l2">
+                        <div class="menu__item menu__item--active">
+                            <div class="menu__item__title menu__item__title--sub-active">Timessheet</div>
+                            <div class="menu__item menu__item--l3">
+                                <div class="menu__item">
+                                    <div class="menu__item__title menu__item__title--active">Clocking pairs</div>
+                                </div>
 
-                                    <div class="menu__item">
-                                        <div class="menu__item__title">Performances</div>
-                                    </div>
+                                <div class="menu__item">
+                                    <div class="menu__item__title">Expenses</div>
+                                </div>
 
-                                    <div class="menu__item">
-                                        <div class="menu__item__title">History</div>
-                                    </div>
+                                <div class="menu__item">
+                                    <div class="menu__item__title">Performances</div>
+                                </div>
 
-                                    <div class="menu__item">
-                                        <div class="menu__item__title">Information</div>
-                                    </div>
+                                <div class="menu__item">
+                                    <div class="menu__item__title">History</div>
+                                </div>
+
+                                <div class="menu__item">
+                                    <div class="menu__item__title">Information</div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                     <div class="menu__item">
-                        <div class="menu__item__title menu__item__title--main">
-                            Personal info
-                        </div>
+                 <div class="menu__item">
+                    <div class="menu__item__title menu__item__title--main">
+                        Personal info
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-10 main-container">
+            <div class="col-md-10 content">
                 <div class="row">
-                    <div class="col-md-4 col-md-offset-8 logo">
-                        <img src="assets/images/manpower-logo.gif" height="76" width="140" alt="">
+                    <h2 class="col-md-12 title">Time sheet for <span class="title__highlight">test wbi</span></h2>
+                    <h3 class="col-md-12 sub-title">Clocking pairs</h3>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-9 timesheet-wrapper">
+                        <table class="timesheet">
+                            <thead>
+                                <tr>
+                                    <th width="25%">Activity</th>
+                                    <th width="10%">Start</th>
+                                    <th width="10%">End</th>
+                                    <th width="30%">Commet</th>
+                                    <th width="10%">Hours</th>
+                                    <th width="5%"></th>
+                                    <th width="5%"></th>
+                                    <th width="5%"></th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr class="timesheet__period">
+                                    <td colspan="6"> Mo, 05/10/2015 </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <select name="" id="">
+                                            <option value="value1">Normal</option>
+                                            <option value="value2">Value 2</option>
+                                        </select>
+                                    </td>
+                                    <td class="text-right"> <input type="text" value="08:00"> </td>
+                                    <td class="text-right"> <input type="text" value="12:00"> </td>
+                                    <td> <input type="text"> </td>
+                                    <td class="text-center">4:30</td>
+                                    <td class="text-center">
+                                        <i class="glyphicon glyphicon-trash"></i>
+                                    </td>
+                                    <td class="text-center"></td>
+                                    <td class="text-center"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <select name="" id="">
+                                            <option value="value1">Normal</option>
+                                            <option value="value2">Value 2</option>
+                                        </select>
+                                    </td>
+                                    <td class="text-right"> <input type="text" value="12:30"> </td>
+                                    <td class="text-right"> <input type="text" value="16:00"> </td>
+                                    <td> <input type="text"> </td>
+                                    <td class="text-center">4:30</td>
+                                    <td class="text-center">
+                                        <i class="glyphicon glyphicon-trash"></i>
+                                    </td>
+                                    <td class="text-center"></td>
+                                    <td class="text-center">
+                                        <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                    </td>
+                                </tr>
+
+                                <tr class="timesheet__period">
+                                    <td colspan="6"> Tu, 06/10/2015 </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <select name="" id="">
+                                            <option value="value1">Normal</option>
+                                            <option value="value2">Value 2</option>
+                                        </select>
+                                    </td>
+                                    <td class="text-right"> <input type="text" value="08:00"> </td>
+                                    <td class="text-right"> <input type="text" value="12:00"> </td>
+                                    <td> <input type="text"> </td>
+                                    <td class="text-center">4:30</td>
+                                    <td class="text-center">
+                                        <i class="glyphicon glyphicon-trash"></i>
+                                    </td>
+                                    <td class="text-center"></td>
+                                    <td class="text-center"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <select name="" id="">
+                                            <option value="value1">Normal</option>
+                                            <option value="value2">Value 2</option>
+                                        </select>
+                                    </td>
+                                    <td class="text-right"> <input type="text" value="12:30"> </td>
+                                    <td class="text-right"> <input type="text" value="16:00"> </td>
+                                    <td> <input type="text"> </td>
+                                    <td class="text-center">4:30</td>
+                                    <td class="text-center">
+                                        <i class="glyphicon glyphicon-trash"></i>
+                                    </td>
+                                    <td class="text-center"></td>
+                                    <td class="text-center">
+                                        <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="col-md-12 content">
-                        <div class="row">
-                            <h2 class="col-md-12 title">Time sheet for <span class="title__highlight">test wbi</span></h2>
-                            <h3 class="col-md-12 sub-title">Clocking pairs</h3>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-md-9 timesheet-wrapper">
-                                <table class="timesheet">
-                                    <thead>
-                                        <tr>
-                                            <th width="25%">Activity</th>
-                                            <th width="10%">Start</th>
-                                            <th width="10%">End</th>
-                                            <th width="30%">Commet</th>
-                                            <th width="10%">Hours</th>
-                                            <th width="5%"></th>
-                                            <th width="5%"></th>
-                                            <th width="5%"></th>
-                                        </tr>
-                                    </thead>
+                    <div class="col-md-3">
+                        <h3> Timesheet </h3>
+                        <p>
+                            Test wbi <br>
+                            05/10/2015 - 31/10/2015
+                        </p>
 
-                                    <tbody>
-                                        <tr class="timesheet__period">
-                                            <td colspan="6"> Mo, 05/10/2015 </td>
-                                        </tr>
+                        <h3> Client </h3>
+                        <p>
+                            Test wbi <br>
+                            05/10/2015 - 31/10/2015
+                        </p>
 
-                                        <tr>
-                                            <td>
-                                                <select name="" id="">
-                                                    <option value="value1">Normal</option>
-                                                    <option value="value2">Value 2</option>
-                                                </select>
-                                            </td>
-                                            <td class="text-right"> <input type="text" value="08:00"> </td>
-                                            <td class="text-right"> <input type="text" value="12:00"> </td>
-                                            <td> <input type="text"> </td>
-                                            <td class="text-center">4:30</td>
-                                            <td class="text-center">
-                                                <i class="glyphicon glyphicon-trash"></i>
-                                            </td>
-                                            <td class="text-center"></td>
-                                            <td class="text-center"></td>
-                                        </tr>
+                        <h3> Resource </h3>
+                        <p>
+                            Test wbi <br>
+                            05/10/2015 - 31/10/2015
+                        </p>
 
-                                        <tr>
-                                            <td>
-                                                <select name="" id="">
-                                                    <option value="value1">Normal</option>
-                                                    <option value="value2">Value 2</option>
-                                                </select>
-                                            </td>
-                                            <td class="text-right"> <input type="text" value="12:30"> </td>
-                                            <td class="text-right"> <input type="text" value="16:00"> </td>
-                                            <td> <input type="text"> </td>
-                                            <td class="text-center">4:30</td>
-                                            <td class="text-center">
-                                                <i class="glyphicon glyphicon-trash"></i>
-                                            </td>
-                                            <td class="text-center"></td>
-                                            <td class="text-center">
-                                                <i class="glyphicon glyphicon-menu-hamburger"></i>
-                                            </td>
-                                        </tr>
-
-                                        <tr class="timesheet__period">
-                                            <td colspan="6"> Tu, 06/10/2015 </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <select name="" id="">
-                                                    <option value="value1">Normal</option>
-                                                    <option value="value2">Value 2</option>
-                                                </select>
-                                            </td>
-                                            <td class="text-right"> <input type="text" value="08:00"> </td>
-                                            <td class="text-right"> <input type="text" value="12:00"> </td>
-                                            <td> <input type="text"> </td>
-                                            <td class="text-center">4:30</td>
-                                            <td class="text-center">
-                                                <i class="glyphicon glyphicon-trash"></i>
-                                            </td>
-                                            <td class="text-center"></td>
-                                            <td class="text-center"></td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                <select name="" id="">
-                                                    <option value="value1">Normal</option>
-                                                    <option value="value2">Value 2</option>
-                                                </select>
-                                            </td>
-                                            <td class="text-right"> <input type="text" value="12:30"> </td>
-                                            <td class="text-right"> <input type="text" value="16:00"> </td>
-                                            <td> <input type="text"> </td>
-                                            <td class="text-center">4:30</td>
-                                            <td class="text-center">
-                                                <i class="glyphicon glyphicon-trash"></i>
-                                            </td>
-                                            <td class="text-center"></td>
-                                            <td class="text-center">
-                                                <i class="glyphicon glyphicon-menu-hamburger"></i>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-
-                            <div class="col-md-3">
-                                <h3> Timesheet </h3>
-                                <p>
-                                    Test wbi <br>
-                                    05/10/2015 - 31/10/2015
-                                </p>
-
-                                <h3> Client </h3>
-                                <p>
-                                    Test wbi <br>
-                                    05/10/2015 - 31/10/2015
-                                </p>
-
-                                <h3> Resource </h3>
-                                <p>
-                                    Test wbi <br>
-                                    05/10/2015 - 31/10/2015
-                                </p>
-
-                                <a href="#"> >> Identification information </a>
-                            </div>
-                        </div>
+                        <a href="#"> >> Identification information </a>
                     </div>
                 </div>
             </div>
